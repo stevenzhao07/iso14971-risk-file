@@ -1,0 +1,8 @@
+iso14971-risk-file
+========================
+可插拔模块（lgd-skeleton/1.0）。风险管理文件生成器（ISO 14971 风险分析/评价/控制）。
+入口: scripts/risk_file.py
+元数据: module.json
+总入口: medical-ai-toolkit
+关联: design-controls-toolkit, iec62304-software, pms-vigilance
+许可: Apache-2.0 · 贡献者: @stevenzhao07 (MedXpert)

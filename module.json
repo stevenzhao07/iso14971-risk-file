@@ -1,0 +1,42 @@
+{
+  "id": "iso14971-risk-file",
+  "title": "风险管理文件生成器（ISO 14971 风险分析/评价/控制）",
+  "description": "按 ISO 14971:2019（+ ISO/TR 24971 应用指南）生成风险管理文件骨架：危害登记表、5×5 概率×严重度风险矩阵、可接受性准则、风险控制措施跟踪、剩余风险与受益-风险分析。把「风险管理贯穿生命周期」落成一条命令。",
+  "triggers": {
+    "keywords": [
+      "iso14971",
+      "risk-management",
+      "风险管理",
+      "风险矩阵",
+      "剩余风险",
+      "benefit-risk"
+    ],
+    "file_patterns": [
+      "risk_file.py"
+    ],
+    "intents": [
+      "风险管理文件",
+      "风险分析",
+      "风险评价矩阵",
+      "剩余风险"
+    ]
+  },
+  "provides": [
+    "iso14971-risk-file",
+    "risk-matrix",
+    "risk-report",
+    "fmea-lite"
+  ],
+  "skills": [],
+  "needs_backends": [],
+  "license": "Apache-2.0",
+  "upstream": "OpenRegulatory/templates",
+  "cost": "low",
+  "lazy": true,
+  "nested": true,
+  "entry": "scripts/risk_file.py",
+  "deps": [],
+  "generated_by": "lgd-skeleton/1.0 (manual port from rea scaffold)",
+  "idea": "ISO 14971 风险管理文件生成器（矩阵 + 控制跟踪 + 剩余风险）",
+  "extension_note": "新增风险源类别：在 HAZARD_CATEGORIES 加一行。"
+}
