@@ -1,6 +1,6 @@
 # iso14971-risk-file
 
-> **Contributed by [@stevenzhao07](https://github.com/stevenzhao07) · Affiliation: MedXpert (medical-device RA & regulatory consultancy) · Pure technical input, no commercial promotion.**
+> **Contributed by [@stevenzhao07](https://github.com/stevenzhao07) · Independent researcher · Pure technical input, no commercial promotion.**
 
 按 ISO 14971:2019（+ ISO/TR 24971 应用指南）生成风险管理文件骨架：危害登记表、5×5 概率×严重度风险矩阵、可接受性准则、风险控制措施跟踪、剩余风险与受益-风险分析。把「风险管理贯穿生命周期」落成一条命令。
 
@@ -33,6 +33,8 @@
 风险准则（什么算可接受）由制造商自行定义并在文件中声明——本工具默认准则仅为示例起点。ISO/TR 24971 为应用指南，不是标准本体。
 
 ## 免责声明
+
+> 品牌状态限定：**MedXpert**（未申请实体注册、未申请商标注册，仅作来源标识）。本仓库由个人以独立研究者（Independent researcher）身份维护，不代表任何机构。
 
 本工具仅提供结构化模板与计算能力，**不构成法规建议、临床建议或产品合规结论**。具体产品的注册、临床评价、灭菌验证、风险分析、软件分级等决策，须由合资格人员依据目标辖区（NMPA / FDA / EU MDR / PMDA）最新法规文本作出；条款与限值以官方发布文本为准。使用本工具产生的一切后果由使用者自行承担。
 
