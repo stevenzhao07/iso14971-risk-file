@@ -62,9 +62,9 @@ python scripts/risk_file.py --demo
 
 ## 关联模块
 
-- [design-controls-toolkit](https://github.com/stevenzhao07/design-controls-toolkit)
-- [iec62304-software](https://github.com/stevenzhao07/iec62304-software)
-- [pms-vigilance](https://github.com/stevenzhao07/pms-vigilance)
+- design-controls-toolkit（未建仓·计划中）
+- iec62304-software（未建仓·计划中）
+- pms-vigilance（未建仓·计划中）
 
 ## 许可
 
